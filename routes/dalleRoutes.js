@@ -12,7 +12,7 @@ const openai = new OpenAI({
 });
 
 router.route('/').get((req, res) => {
-    res.send('Welcome toj Dalle!');
+    res.send('Welcome tobj Dalle!');
 });
 
 router.route('/').post(async (req, res) => {
